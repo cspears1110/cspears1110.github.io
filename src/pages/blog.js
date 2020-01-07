@@ -17,14 +17,15 @@ const ArticleDate = styled.h5`
   color: #606060;
 `
 
+//border-radius: 1em 0 1em 0;
 const MarkerHeader = styled.h3`
   display: inline;
-  border-radius: 1em 0 1em 0;
+  border-radius: .5em .1em 1em .25em;
   background-image: linear-gradient(
     -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
+    rgba(167, 255, 235, 0.15),
+    rgba(167, 255, 235, 0.8) 100%,
+    rgba(167, 255, 235, 0.25)
   );
 `
 
@@ -81,7 +82,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "MMMM DD, YYYY")
             path
           }
           fields {

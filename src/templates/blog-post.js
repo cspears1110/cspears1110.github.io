@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
+import Img from "gatsby-image"
 import SEO from "../components/seo"
 
 const Content = styled.div`
@@ -10,14 +11,15 @@ const Content = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 
+//border-radius: 1em 0 1em 0;
 const MarkedHeader = styled.h1`
   display: inline;
-  border-radius: 1em 0 1em 0;
+  border-radius: .5em .1em 1em .25em;
   background-image: linear-gradient(
     -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
+    rgba(167, 255, 235, 0.15),
+    rgba(167, 255, 235, 0.8) 100%,
+    rgba(167, 255, 235, 0.25)
   );
 `
 
@@ -28,13 +30,15 @@ const HeaderDate = styled.h3`
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
 const MarkdownContent = styled.div`
+  margin-top: 2em;
+
   a {
     text-decoration: none;
     position: relative;
 
     background-image: linear-gradient(
-      rgba(255, 250, 150, 0.8),
-      rgba(255, 250, 150, 0.8)
+      rgba(167, 255, 235, 0.8),
+      rgba(167, 255, 235, 0.8)
     );
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
@@ -44,10 +48,18 @@ const MarkdownContent = styled.div`
       background-size: 100% 88%;
     }
   }
+
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid rgba(167, 255, 235, 0.8);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+  }
 `
 
 export default ({ data }) => {
   const post = data.markdownRemark
+  let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   return (
     <Layout>
       <SEO
@@ -59,6 +71,7 @@ export default ({ data }) => {
         <HeaderDate>
           {post.frontmatter.date} - {post.fields.readingTime.text}
         </HeaderDate>
+        <Img fluid={featuredImgFluid} />
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
     </Layout>
@@ -71,9 +84,16 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 160)
       frontmatter {
-        date(formatString: "DD MMMM, YYYY")
+        date(formatString: "MMMM DD, YYYY")
         path
         title
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
       fields {
         readingTime {

@@ -21,9 +21,17 @@ const Description = styled.p`
   font-size: 1.4rem;
 `
 
+//border-radius: 1em 0 1em 0;
 const NameHeader = styled.h1`
   font-size: 3.5rem;
   margin-bottom: 0;
+  border-radius: .5em .1em 1em .25em;
+  background-image: linear-gradient(
+    -100deg,
+    rgba(167, 255, 235, 0.15),
+    rgba(167, 255, 235, 0.8) 100%,
+    rgba(167, 255, 235, 0.25)
+  );
 `
 
 const LandingBio = () => (
