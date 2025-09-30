@@ -71,36 +71,12 @@ education:
   - degree: M.M. in Wind Band Conducting
     university: University of Texas at El Paso
     time: 2024 - present
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: M.M. in Music Education
+  - degree: B.M. in Music Education
     university: Stephen F. Austin State University
     time: 2019 - 2022
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
   - degree: B.S. in Computer Science
     university: Abilene Christian University
     time: 2014 - 2018
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
 
 experiences:
   title: Experiences
@@ -128,7 +104,7 @@ experiences:
     details: |
         - Director of the Symphonic Non-Varsity (4A) and Jazz ensembles
         - Sweepstakes, Non-Varsity OPS State-Advancing selections (2, 2024)
-        - Assisted with musical and visual aspects of the Pecos Eagle Marching Band (SMB Appearances, BOA 1A Regional/Super Regianl Champions)
+        - Assisted with musical and visual aspects of the Pecos Eagle Marching Band (SMB Appearances, BOA 1A Regional/Super Regional Champions)
         - Taught beginner horn, trumpet and assisted ensembles at Crockett Middle School
   - role: Software Developer
     time: 2018 - 2019
