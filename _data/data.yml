@@ -3,36 +3,36 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Coleman Spears
+  tagline: Music Educator | Programmer
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: cole.spears1110@gmail.com
+  # phone: 580 748 1551
+  timezone: America/Denver # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  website: https://www.cuetechniques.com/ # Include the full website URL, including "http://" or "https://".
+  # linkedin: cspears1110
+  # xing: alandoe
+  github: cspears1110
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  # bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  # twitter: '@jekyllrb'
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  # mastodon: # Please include your full Mastodon link here.
+  # hackerrank: # Please provide your HackerRank username.
+  # leetcode: # Please provide your LeetCode username.
+  pdf: /assets/pdf/resume.pdf
 
   languages:
     title: Languages
@@ -40,42 +40,37 @@ sidebar:
     - idiom: English
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
-
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Music Education
       link:
 
 
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
+    - item: Mobile App Developement
+      link: https://www.cuetechniques.com
 
 
 career-profile:
-  title: Career Profile
+  title: About Cole
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Coleman Spears is a graduate assistant at the University of Texas at El Paso, 
+    where he studies Wind Band Conducting under Dr. Andrew Hunter. He previously served 
+    as the Assistant Director of Bands at Pecos High School in Pecos, TX. He holds degrees 
+    from Stephen F. Austin State University (2022, B.M. Music Education) and Abilene Christian 
+    University (2018, B.S. Computer Science).
+
+    His interests and research includes music education and technology, creating tools for 
+    young music educators, such as Cue Rehearsal Techniques and Rehearsal Monitor. Coleman
+    Spears is passionate about music, technology, and empowering the next generation of students 
+    to utilize both studies in becoming better global citizens.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: M.M. in Wind Band Conducting
+    university: University of Texas at El Paso
+    time: 2024 - present
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -84,9 +79,20 @@ education:
       pretium quis, sem.
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+  - degree: M.M. in Music Education
+    university: Stephen F. Austin State University
+    time: 2019 - 2022
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - degree: B.S. in Computer Science
+    university: Abilene Christian University
+    time: 2014 - 2018
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -99,188 +105,84 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Developer of Cue Rehearsal Techniques / Rehearsal Monitor
+    time: 2023 - present
+    company:
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Cue Rehearsal Techniques is a music pedagogy mobile app for young and seasoned teachers alike.
+      Users can easily browse applicable reherasal techniques at the touch of a button, as well as
+      create and share lesson plans with staff and students. Rehearsal Monitor categorizes audio into one of
+      four different categories: music, talking, silence, noise. This feedback lets music teachers visually see
+      how effective they are and how they are using lesson time. Project links below.
+  - role: Graduate Assistant - Wind Band Conducting
+    time: 2024 - present
+    company: The University of Texas at El Paso, El Paso, TX
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+        - UTEP Marching Miners - Graduate Teaching Assistant
+        - UTEP Basketball Band Conductor
+        - UTEP 2025 Summer Band Camps Coordinator
+        - University of Oregon, University of Georgia Conducting Workshop Invitee
+  - role: Assistant Band Director
+    time: 2022 - 2024
+    company: Pecos High School, Pecos, TX
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+        - Director of the Symphonic Non-Varsity (4A) and Jazz ensembles
+        - Sweepstakes, Non-Varsity OPS State-Advancing selections (2, 2024)
+        - Assisted with musical and visual aspects of the Pecos Eagle Marching Band (SMB Appearances, BOA 1A Regional/Super Regianl Champions)
+        - Taught beginner horn, trumpet and assisted ensembles at Crockett Middle School
+  - role: Software Developer
+    time: 2018 - 2019
+    company: USAA, San Antonio, TX
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+        - Front-end developer for car buying and selling (React.js)
+        - Back-end developer for banking (Java)
+        - Aided team in following project management and compliance guidelines (Agile)
 
 projects:
   title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: Cue Rehearsal Techniques (iOS, Android)
+    link: "https://www.cuetechniques.com/"
+    tagline: "The rehearsal pedagogy app for music educators! A must-have tool-box for young and seasoned teachers alike!"
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: Rehearsal Monitor (iOS)
+    link: "https://www.cuetechniques.com/rehearsal-monitor/"
+    tagline: "Classify music rehearsals into different categories (music, talking, noise, etc.) Get valuable data to see how you are using your time!"
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+  title: Clinic Presentations and Publications
   papers:
-  - title: The Art of Computer Programming
+  - title: "Setting the Record StrAIght: The Future of AI in the Classroom"
     link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    authors: Coleman Spears
+    conference: 2026 Texas Music Educators Association Conference, San Antonio, TX
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  - title: "Is Now the Time for Grad School? A UT System Grad Panel"
     link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    authors: Coleman Spears (UTEP), Tyler Autin (SFASU), Bobby Salazar (UTRGV), Griffin Young (UTSA)
+    conference: "2026 Texas Music Educators Association Conference, San Antonio, TX"
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+  - title: "The Musical Decision Tree: A Tool for Effective Rehearsing"
+    link: "https://www.midwestclinic.org/2023_clinician_Chris_Kaatz"
+    authors: Dr. Chris Kaatz, Abbigail Ramsey-Jones, Coleman Spears
+    conference: 2023 Midwest International Band and Orchestra Clinic, Chicago, IL
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: React Native
     level: 95%
 
-  - name: Ruby on Rails
+  - name: React.js
+    level: 90%
+
+  - name: C++
     level: 85%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: SSG (Gatsby, Jekyll, etc.)
+    level: 85%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  2025 | Coleman Spears
